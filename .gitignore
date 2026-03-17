@@ -1,0 +1,27 @@
+# --- Archivos de Sistema (Linux/macOS) ---
+.DS_Store
+thumbs.db
+.directory
+
+# --- Entornos Virtuales y Dependencias ---
+venv/
+.venv/
+env/
+node_modules/
+dist/
+build/
+
+# --- DevOps & Infra (Terraform/Ansible) ---
+.terraform/
+*.tfstate
+*.tfstate.backup
+.vault_pass
+*.log
+*.tmp
+
+# --- Variables de Entorno (¡MUY IMPORTANTE!) ---
+# Nunca subas tus contraseñas o llaves API
+.env
+.secrets
+*.pem
+*.key
