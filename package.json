@@ -1,15 +1,29 @@
 {
-  "name": "1",
+  "name": "1-pj-devops-unach",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Proyecto de Pipeline DevOps - Semana 3",
+  "main": "app.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "lint": "eslint app.js",
+    "format": "prettier --write app.js",
+    "prepare": "husky install"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "devops",
+    "unach",
+    "eslint",
+    "husky"
+  ],
+  "author": "Bronx",
   "license": "ISC",
   "devDependencies": {
-    "jest": "^30.3.0"
+    "@eslint/js": "^9.x.x",
+    "@eslint/json": "^0.x.x",
+    "eslint": "^9.x.x",
+    "globals": "^15.x.x",
+    "husky": "^9.x.x",
+    "jest": "^30.3.0",
+    "prettier": "^3.x.x"
   }
 }
